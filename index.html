@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        5l3y3r ChatApp
+    </title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="./user.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="chatBox", id="chatBox">
+            <div class="chatHead">
+                <p>5l3y3r ChatApp</p>
+                <div class="userCount">
+                    online:
+                    <span id="concurrentUsers">0</span>
+                </div>
+            </div>
+            <div class="chattings", id="chatting">
+            </div>
+            <form action="#" id="messageForm">
+                <input type="text" id="messageInput" placeholder="Enter Your Message">
+                <button id="sendButton">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
